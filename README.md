@@ -1,6 +1,7 @@
 Etkinlik Planlayıcı Typescript Ödev
 
-Model: <br/>
+Backend : Angular
+Model: Kullanılan Entity Nesneleri<br/>
 Kisi : Base class <br/>
     Personel <br/>
     Ogrenci <br/>
@@ -11,25 +12,31 @@ Etkinlik : Base Class <br/>
     Boot camp <br/>
     Hackathon <br/>
     Gunu birlik <br/>
-
+Kullanılan Servis Nesneleri
 Kisi Service : interface <br/>
     Ogrenci service implemente edildi. <br/>
-    Add,List,getbyid,update,delete Methodları yazıldı. test sınıfı oluşturuldu <br/>
-    Add,List,getbyid,update,delete testleri yazıldı <br/>
     Mentor service <br/>
-    Add,List,getbyid,update,delete Methodları yazıldı.  <br/>
     Stajyer service <br/>
-    Add,List,getbyid,update,delete Methodları yazıldı.  <br/>
     Personel service <br/>
-    Add,List,getbyid,update,delete Methodları yazıldı.  <br/>
+    
 Etkinlik service : interface <br/>
     Gunubirlik service implemente edildi.<br/>
-    Add,List,getbyid,getbydate,update,delete Methodları yazıldı.<br/>
     hackathon service <br/>
-    Add,List,getbyid,getbydate,update,delete Methodları yazıldı.<br/>
     kurumici service <br/>
-    Add,List,getbyid,getbydate,update,delete Methodları yazıldı.<br/>
     bootcamp service implemente edildi<br/>
-    Add,List,getbyid,getbydate,update,delete Methodları yazıldı.<br/>
-    Add,List,getbyid,getbydate,update,delete testleri yazıldı <br/>
+   
      <br/>
+
+------------------------------
+Front End
+
+Ana Sayfada 3 etkinlik oluşturularak listelendi.<br/>
+Etkinlikler sayfasında tüm etkinlikler ayrıntılı olarak listelendi.<br/>
+Admin - Etkinlik Yönetimi sayfasında etkinlikler tablo halinde listelenerek<br/>
+yeni etkinlik eklenmesi için buton yönlendirmesi eklendi.<br/>
+butonla etkinlik ekleme sayfasında yönlenderek yeni etkinlik ekleme implemente edildi.<br/>
+
+
+git hub pages üzerinde yayınlandı.
+https://enginozkurt.github.io/EtkinlikPlanlayiciOdev/
+logo ve resimler pageste çalışmadı.
