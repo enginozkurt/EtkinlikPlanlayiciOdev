@@ -1,0 +1,7 @@
+console.log (event.controls['etkinlikAdi'].value);
+    console.log (event.controls['etkinlikAciklama'].value);
+    console.log (event.controls['etkinlikIcerik'].value);
+    console.log (event.controls['etkinlikTuru'].value);
+    console.log (event.controls['baslangic'].value);
+    console.log (event.controls['bitis'].value);
+    console.log (event.controls['sure'].value);

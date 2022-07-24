@@ -1,0 +1,22 @@
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" *ngFor="let item of etkinllikListele()" >
+      <h2>{{item.etkinlikAdi}}</h2>
+      <h2>{{item.constructor.name}} </h2>
+      <h5>{{item.etkinlikBaslangic}}
+        -
+        {{item.etkinlikBitis}}
+
+      </h5>
+      <div class="fakeimg" style="height:400px;" ><img src="{{item.etkinlikImage}}"></div>
+      <p>{{item.etkinlikAciklama}}</p>
+      <p>{{item.etkinlikIcerik}}</p>
+    </div>
+    
+  </div>
+  
+</div>
+
+

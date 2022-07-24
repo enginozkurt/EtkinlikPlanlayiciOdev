@@ -1,0 +1,25 @@
+
+
+
+<table class="rtable">
+  <button (click)="onClick($event)" class="button"> EtkinlikEkle</button>
+  <thead>
+    <tr>
+      <th>EtkinlikTuru</th>
+      <th>EtkinlikAdi</th>
+      <th>EtkinlikBaslangic</th>
+      <th>EtkinlikBitis</th>
+      <th>EtkinlikSure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr  *ngFor="let item of etkinlikList">
+      <td>{{ item.constructor.name }}</td>
+      <td>{{ item.etkinlikAdi }}</td>
+      <td>{{ item.etkinlikBaslangic }}</td>
+      <td>{{ item.etkinlikBitis }}</td>
+      <td>{{item.etkinlikSure}} saat</td>
+    </tr>
+    
+  </tbody>
+</table>

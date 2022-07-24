@@ -1,0 +1,28 @@
+
+<div class="form-style-5">
+    <form  #userlogin = "ngForm" (ngSubmit) = "onClickSubmit(userlogin)">
+    <fieldset>
+    <legend><span class="number">1</span> Etkinlik Ekle</legend>
+    <input type="text" name="etkinlikAdi" placeholder="Etkinlik Adı" ngModel>
+    <input type="text" name="etkinlikAciklama" placeholder="Etkinlik Aciklamasi" ngModel>
+    <textarea name="etkinlikIcerik" placeholder="Etkinlik Icerigi" ngModel></textarea>
+    <input type="text" name="kapasite" placeholder="Etkinlik Kapasitesi" ngModel>
+    <label for="job">Etkinlik Türü:</label>
+    <select id="job" name="etkinlikTuru" ngModel> 
+      <option value="bootcamp">Bootcamp</option>
+      <option value="hackathon">Hackathon</option>
+      <option value="kurumici">Kurum Ici</option>
+      <option value="gunubirlik">Gunu Birlik</option>
+      </select>      
+    </fieldset>
+    <fieldset>
+    <legend><span class="number">2</span>Etkinlik Sure Bilgisi</legend>
+    <label for="job">Baslangic Tarihi:</label>
+    <input type="date" name="baslangic"  placeholder="Etkinlik Baslangic" ngModel>
+    <label for="job">Bitis Tarihi:</label>
+    <input type="date" name="bitis"  placeholder="Etkinlik Baslangic" ngModel>
+    <input type="text" name="sure" placeholder="Etkinlik Suresi" ngModel>
+    </fieldset>
+    <input type="submit" value="Save"  />
+    </form>
+    </div>
